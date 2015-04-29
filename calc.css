@@ -1,0 +1,71 @@
+*{
+    font-family:courier;
+    
+}
+body{
+	background-color: white;
+}
+
+#display{
+	width:244px;
+	height: 50px;
+	text-align:right;
+	font-size:30px;
+	color:white;
+	background-color:teal;
+	padding-right:6px;
+	line-height:50px;
+}
+
+.row{
+
+}
+
+.button{
+	background-color: teal;
+	display:inline-block;
+	height: 50px;
+	width: 50px;
+	text-align:center;
+	transition: all 0.5s ease;
+	color:white;
+    margin-right:-10px;
+    line-height:50px;
+}
+
+.button:hover{
+	background-color: white;
+	color:teal;
+}
+
+
+.opp{
+	background-color: orange;
+}
+.opp:hover{
+	color:orange;
+}
+#equals{
+    border-radius:0;
+    background-color:gray;
+    border: 0px solid white;
+    height: 50px;
+	width: 150px;
+	line-height:50px;
+}
+#clear{
+    background-color:orange;
+    color:red;
+    
+}
+#clear:hover{
+	color:orange;
+	background-color:red;
+}
+.function{
+	background-color: orange;
+}
+.function:hover{
+	color:orange;
+}
+    

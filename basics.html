@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Html'</title>
+	<link rel='stylesheet' href='basics.css'/>
+	<script src='basics.js'></script>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <div onmouseenter="change()" onmouseout="changeBack()"id="logo">
+                        <p id="smiley" >:)</p>
+                    </div>
+                </td>
+                <td id="title" >About HTML</td>
+            </tr>
+            <tr>
+                <td class="Page">
+                    Home
+                </td>
+                 <td rowspan="6" colspan="2"id="bodyText">
+                    <div>
+                        <h3>What is HTML</h3>
+                        <p class="what">HTML, or Hyper Text Markup Language is a programming language<br> that is often used to construct websites. This website was constructed<br> using HTML, as well as CSS (Cascading Style Sheets, another<br> programming language used for websites. You will find out more <br>about CSS further down on the page.) Programming in HTML <br>requires the use of elements, which require tags, which are all <br>constructed of matching greater than and less than signs. You will <br> find out more about tags and elements later. 
+</p>
+                        <h3>What is CSS</h3>
+                        <p class="what">CSS, or Cascading Style Sheets is a programming language used to <br> style websites. While HTML controls the content on a website, CSS<br> is what makes it presentable to the user.
+<br><br><table style="font-size:1.2em;">
+    <tr>
+        <td><img src="http://10.8.16.42/dexterh/Screenshot%202014-09-25%20at%2011.25.25%20AM.png"></td>
+        <td style="font-size:.6em">Without CSS<br>and With CSS
+        </td>
+        <td><img src="http://10.8.16.42/dexterh/Screenshot%202014-09-25%20at%2011.25.49%20AM.png"></td>
+    </tr>
+</table><br><br>
+CSS can be used to change colors, add animations, adjust fonts, and <br>everything inbetween.
+</p>
+                        <h3>What are Tags and Elements</h3>
+                        <p class="what">Elements are what HTML code consists of. Tags consist of angle brackets<br> with keywords in between them, and then content in between tags. Example <br>element syntax is <xmp><keyword>content</keyword></xmp> If you want to add a paragraph to the page, you need to create an element that <br> tells the computer to read it as a paragraph. The way you do this is using the <p> tag. The full syntax would be <xmp><p>(What you want to write)</p></xmp> At the bottom of the page is a table showing many example tags.
+</p>
+                        <h3>CSS Syntax and Attributes</h3>
+                        <p class="what">In CSS, to control how the content from the HTML is presented,<br> you need to use the following Syntax.<br><br>
+(Object you want to change){<br>
+(How you want it to change)<br>
+}<br><br>
+For example, if you wanted to make all your paragraphs have blue<br> text and a green background, you would do<br><br>
+p{<br>
+color:blue; (Pay attention to semicolons and colons)<br>
+background-color:green;<br>
+}<br><br>
+If you only want to change one paragraph, or a specific selection<br> of paragraphs, that’s where attributes come in. Attributes contain <br>IDs and Classes. ID’s specifically describe one element of HTML.<br> For example, you might assign your first paragraph an ID of <br>“intro”, to show that it is the introduction paragraph. Classes <br>describe many elements. For example, you might give all of your <br>paragraphs in a certain section of your website a class of “section1”.<br><br>
+
+Now that you know what attributes are, it’s time to learn how to use them.<br> A paragraph with an ID of intro would be formatted like this: <xmp><p id=”intro”>content</p></xmp>,and a paragraph with a class of section1 would be formatted like this: <xmp><p class=”section1”>content</p></xmp>. Now you need to know how to use CSS to change the appearance of <br>elements with specific IDs and classes. The standard CSS syntax remains <br>mostly the same, but you lead the names of IDs with #s, and the names<br> of classes with a period. So the formatting looks like this:
+<br>#ID{<br>
+(Changes Made)<br>
+}<br>
+And:<br>
+.class{<br>
+(Changes Made)<br>
+}<br>
+</p>
+                        <h4>Examples of Tags</h4>
+                        <table id="tagList" border="4">
+                            <th colspan="2"class="bordered">
+                                Tags
+                            </th>
+                            <tr class="bordered">
+                                <td class="bordered"><'p'>
+                                    
+                                </td>
+                                <td class="bordered">Creates a Paragraph</td>
+                            </tr>
+                            <tr class="bordered">
+                                <td class="bordered"><'h1'>-<'h6'>
+                                    
+                                </td>
+                                <td class="bordered">Creates Headings of Various Sizes,<br> h1 Being the Largest, h6 being the smallest</td>
+                            </tr>
+                            <tr class="bordered">
+                                <td class="bordered"><'title'>
+                                </td>
+                                <td class="bordered">Determines the Title of The Website</td>
+                            </tr>
+                             <tr class="bordered">
+                                <td class="bordered"><'body'>
+                                </td>
+                                <td class="bordered">All tags that compose the <br> body of a website go in body tags</td>
+                            </tr>
+                             <tr class="bordered">
+                                <td class="bordered"><'title'>
+                                </td>
+                                <td class="bordered">Determines the Title of The Website</td>
+                            </tr>
+                             <tr class="bordered">
+                                <td class="bordered"><'img src="image.url"'>
+                                </td>
+                                <td class="bordered">Adds an Image</td>
+                            </tr>
+                             <tr class="bordered">
+                                <td class="bordered"><'title'>
+                                </td>
+                                <td class="bordered">Determines the Title of The Website</td>
+                            </tr>
+                             <tr class="bordered">
+                                <td class="bordered"><'br'>
+                                </td>
+                                <td class="bordered">Adds a Line Break.</td>
+                            </tr>
+                             <tr class="bordered">
+                                <td class="bordered"><'a href="Url To Link To"'>
+                                </td>
+                                <td class="bordered">Adds a Link.</td>
+                            </tr>
+                        </table>
+                           <p>
+       HTML and CSS Resouces:<br>
+       <a href="codecademy.com">codecademy.com</a><br>
+       <a href="http://www.w3schools.com/html/default.asp">w3schools.com</a>
+   </p>
+                    </div>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td class="Page">About Me</td>
+              
+            </tr>
+            <tr>
+                <td class="Selected">HTML Basics</td>
+            </tr>
+            <tr>
+                <td class="Page">Cool Stuff</td>
+
+                
+            </tr>
+            
+        </tbody>
+    </table> 
+
+</body>
+</html>

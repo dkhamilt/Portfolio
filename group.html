@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='group.css'/>
+  
+
+    <style type="text/css">
+::-webkit-scrollbar {width: 6px; height: 4px; background: #888888; }
+::-webkit-scrollbar-thumb { background-color: #3399FF; -webkit-border-radius: 1ex; }
+</style>
+</head>
+<body>
+<h2>Group Generator</h2>
+<div id="bar">
+      
+<input type="radio"  value="Size" checked id="size" name="type">Size
+<input id="numberOfGroups" name="type" type="radio"  value="Number">Number
+<input id="number" class="number"  type="number" size="1">
+
+
+<div id=but onclick="begin()">Generate</div>
+</div>
+
+<div id="background">
+<div id="list">
+    <h3>Names</h3>
+  
+  <input onkeydown="if (event.keyCode == 13) addName()" class="names" id="studentEntry" type="text" >
+  
+  <div class="setting" id="clear" onclick="clear()">clear</div>
+</div>
+<div id="groups">
+    <h3>Groups</h3>
+  <table id="groupTable"></table>
+</div>
+</div>
+<script type="text/javascript" src="group.js" ></script>
+	
+</body>
+</html>

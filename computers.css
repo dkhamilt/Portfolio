@@ -1,0 +1,135 @@
+/* WebKit and Opera browsers */
+  @-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
+  }
+
+  /* all other browsers */
+  @keyframes spinner {
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
+
+#logo{
+     margin: .2em auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+    height:3em;
+    width:3em;
+    border-radius:60%;
+    border:0.09em solid black;
+    font-size:2em;
+    background-color:#A3E0FF;
+    
+      
+}
+#smiley{
+    position:relative;
+    top:-1.1em;
+    left:0.4em;
+    font-size:2.6em;
+}
+#title{
+    text-align:center;
+    font-size:4em;
+    color:#001A4C;
+    font-family:serif;
+    width:90%;
+}
+body{
+    background-color:#FFFFFF;
+}
+.Page{
+    background-color:#a3e0ff;
+    border-radius: .5em;
+    width:2em;
+    Border: .08em solid black;
+    font-family:sans-serif;
+    height:wrap_content;
+    font-size:2em;
+    -webkit-perspective:20000px;
+    -moz-perspective: 20000px;
+    -ms-perspective: 20000px;
+}
+.Page:hover{
+    width:2em;
+    Border: .08em dotted black; 
+    background-color:#4D9FFF;
+     margin: .2em auto;
+     -webkit-animation-name: spinner;
+      -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2.2s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    background-color:#4D9DFF;
+}
+#logo:hover{
+   
+    background-color:#4D9DFF;
+}
+#bodyHead{
+    text-align:center;
+    border-radius:1em;
+    background-color:#4D9FFF;
+    width:100%;
+    font-size:2.8em;
+}
+img{
+    width:10em;
+}
+#filler{
+    height:100%;
+}
+#bodyText{
+    padding:.5em;
+    background-color:#C2EBFF;
+    height:100%;
+    width:80%;
+    font-size:1em;
+    border-radius:1em;
+}
+#hype{
+    font-size:2em;
+}
+.Selected{
+    background-color:#4D9FFF;
+    border-radius: .5em;
+    width:2em;
+    Border: .08em solid black;
+    font-family:sans-serif;
+    height:wrap_content;
+    font-size:2em;
+    
+}
+#secret{
+    color:white;
+}
+h3{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+img{
+    width=10em;
+    text-align:center;
+}
